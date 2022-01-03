@@ -21,7 +21,7 @@ class EventsIndex extends Component {
   }
   render() {
     return (
-      <>
+      <React.Fragment>
         <table>
           <thead>
             <tr>
@@ -36,7 +36,7 @@ class EventsIndex extends Component {
         </table>
 
         <Link to="/events/new">New Event</Link>
-      </>
+      </React.Fragment>
     );
   }
 }
